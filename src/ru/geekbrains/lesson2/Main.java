@@ -16,19 +16,18 @@ public class Main {
         int a = scanner.nextInt();
         System.out.println("Введите второе число");
         int b = scanner.nextInt();
-        int result;
+        int result = 0;
         if (operation == 1) {
             result = a + b;
         } else if (operation == 2) {
             result = a - b;
-
         } else if (operation == 3) {
             result = a * b;
-        } else {
+        } else if (operation == 4) {
             result = a / b;
-        }
-
-        System.out.println("Результат = " + result);
+        } else {
+            System.out.println("WTF");}
+        System.out.println("Результат="+ result);
 
     }
 }
